@@ -1,0 +1,32 @@
+@media (max-width: 992px) {
+    .testimonial{
+        transform: scale(.95);
+    }
+    .rightSection .right{
+        height: 18rem;
+    }
+}
+
+@media (max-width: 767px){
+    .leftSection{
+        height: fit-content !important;
+    }
+    .rightSection{
+        height: fit-content !important;
+    }
+    .cardBody.purple{
+        background: url('./images/bg-pattern-quotation.svg') right 2rem top no-repeat , var(--Moderate-violet);
+    }
+    .purple,
+    .blackishBlue,
+    .right{
+        height: 25rem !important;
+    }
+    .res-left-white,
+    .darkGrayishBlue{
+        height: 15rem !important;
+    }
+}
+@media (max-width: 480px){
+
+}
