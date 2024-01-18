@@ -3,16 +3,14 @@
     transform: scale(0.95);
   }
   .rightSection .right {
-    height: 18rem;
+    height: fit-content !important;
+    gap: 1.5rem;
   }
 }
 
 @media (max-width: 767px) {
-  .leftSection {
-    height: fit-content !important;
-  }
-  .rightSection {
-    height: fit-content !important;
+  .cardBody {
+    gap: 1.5rem;
   }
   .cardBody.purple {
     background: url("./images/bg-pattern-quotation.svg") right 2rem top
@@ -22,12 +20,10 @@
   .purple,
   .blackishBlue,
   .right {
-    height: 25rem !important;
+    height: fit-content !important;
   }
   .res-left-white,
   .darkGrayishBlue {
-    height: 15rem !important;
+    height: fit-content !important;
   }
-}
-@media (max-width: 480px) {
 }
