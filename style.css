@@ -1,107 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,500&display=swap");
 
 *,
 *::after,
-*::before{
-    margin: 0 ;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Barlow Semi Condensed', sans-serif;
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
-:root{
-    --Moderate-violet: hsl(263, 55%, 52%);
-    --Very-dark-grayish-blue: hsl(217, 19%, 35%);
-    --Very-dark-blackish-blue: hsl(219, 29%, 14%);
-    --White: hsl(0, 0%, 100%);
-    --Light-gray: hsl(0, 0%, 81%);
-    --Light-grayish-blue: hsl(210, 46%, 95%);
-    --grad: hsla(210, 46%, 95%, 0.5);
-    --grad2: hsla(219, 29%, 14%, .5);
-    --review: hsla(210, 46%, 95%, .7);
-    --review2: hsla(219, 29%, 14%, .5);
+:root {
+  --Moderate-violet: hsl(263, 55%, 52%);
+  --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(0, 0%, 81%);
+  --Light-grayish-blue: hsl(210, 46%, 95%);
+  --grad: hsla(210, 46%, 95%, 0.5);
+  --grad2: hsla(219, 29%, 14%, 0.5);
+  --review: hsla(210, 46%, 95%, 0.7);
+  --review2: hsla(219, 29%, 14%, 0.5);
 }
 
-main{
-    min-height: 100vh;
-    align-items: center;
-    background: var(--Light-grayish-blue);
+main {
+  min-height: 100vh;
+  align-items: center;
+  background: var(--Light-grayish-blue);
 }
 
-
-.leftSection .left{
-    height: 18rem;
+.leftSection .left {
+  height: 18rem;
 }
-.rightSection .right{
-    height: 37rem;
+.rightSection .right {
+  height: 37rem;
 }
 
 /* common card styling */
-.cardBody{
-    padding: 1rem;
-    border-radius: .5rem;
+.cardBody {
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 
 /* card bg */
-.cardBody.purple{
-    background: url('./images/bg-pattern-quotation.svg') right 5rem top no-repeat , var(--Moderate-violet);
+.cardBody.purple {
+  background: url("./images/bg-pattern-quotation.svg") right 5rem top no-repeat,
+    var(--Moderate-violet);
 }
-.cardBody.darkGrayishBlue{
-    background: var(--Very-dark-grayish-blue);
+.cardBody.darkGrayishBlue {
+  background: var(--Very-dark-grayish-blue);
 }
-.cardBody.white{
-    background: var(--White);
+.cardBody.white {
+  background: var(--White);
 }
-.cardBody.blackishBlue{
-    background: var(--Very-dark-blackish-blue);
+.cardBody.blackishBlue {
+  background: var(--Very-dark-blackish-blue);
 }
 
 /*common profile image styling */
-.cardBody .profileImg{
-    width: 40px;
-    height: 40px;
-    border-radius: 100vh;
+.cardBody .profileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 100vh;
 }
 /* common text styling */
-.testimonial .text-grayishblue{
-    color: var(--Light-grayish-blue);
+.testimonial .text-grayishblue {
+  color: var(--Light-grayish-blue);
 }
-.testimonial .text-Darkgrayishblue{
-    color: var(--Very-dark-grayish-blue);
+.testimonial .text-Darkgrayishblue {
+  color: var(--Very-dark-grayish-blue);
 }
-.testimonial .text-size1{
-    font-size: 13px;
+.testimonial .text-size1 {
+  font-size: 13px;
 }
-.cardBody .cardProfile .profileText{
-    text-wrap: nowrap;
-} 
+.cardBody .cardProfile .profileText {
+  text-wrap: nowrap;
+}
 .cardBody h4,
 .cardBody .text-size1,
-.cardBody .cardProfile .profileText p{
-    margin: 0;
+.cardBody .cardProfile .profileText p {
+  margin: 0;
 }
-.cardBody .cardProfile .grad{
-    color: var(--grad);
+.cardBody .cardProfile .grad {
+  color: var(--grad);
 }
-.cardBody .cardProfile .grad2{
-    color: var(--grad2);
+.cardBody .cardProfile .grad2 {
+  color: var(--grad2);
 }
-.cardBody h4{
-    font-size: 20px;
+.cardBody h4 {
+  font-size: 20px;
 }
-.cardBody .review{
-    color: var(--review);
+.cardBody .review {
+  color: var(--review);
 }
-.cardBody .review2{
-    color: var(--review2);
+.cardBody .review2 {
+  color: var(--review2);
 }
 
 /* purple & darkish blue*/
-.cardBody .imgPurple{
-    border: 0.2rem solid hsl(263, 97%, 70%);
+.cardBody .imgPurple {
+  border: 0.2rem solid hsl(263, 97%, 70%);
 }
 
 /* dark grayish blue & white*/
-.cardBody .imgTransparent{
-    border: 0.2rem solid transparent;
+.cardBody .imgTransparent {
+  border: 0.2rem solid transparent;
 }
